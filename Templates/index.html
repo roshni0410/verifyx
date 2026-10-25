@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VerifyX - Deepfake Detection</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <header>
+        <div class="logo">
+            Verify<span>X</span>
+        </div>
+
+        <p>AI-Based Deepfake Detection</p>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <h1>Verify Your Media</h1>
+
+            <p>
+                Upload an image or video and analyze it
+                using the VerifyX detection system.
+            </p>
+
+            <form action="/detect"
+                  method="POST"
+                  enctype="multipart/form-data">
+
+                <div class="upload-box">
+
+                    <h2>Upload Media</h2>
+
+                    <p>
+                        Supported formats:
+                        JPG, PNG, MP4, AVI, MOV
+                    </p>
+
+                    <input
+                        type="file"
+                        name="media"
+                        accept="image/*,video/*"
+                        required
+                    >
+
+                </div>
+
+                <button type="submit">
+                    Analyze Media
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section class="features">
+
+            <div class="card">
+                <h3>AI Analysis</h3>
+                <p>
+                    Media is processed using Python-based
+                    image and video analysis.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Image Detection</h3>
+                <p>
+                    Uploaded images are preprocessed
+                    before analysis.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Video Detection</h3>
+                <p>
+                    Video frames can be extracted
+                    for analysis.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            VerifyX © 2026 | TYCS Final Year Project
+        </p>
+    </footer>
+
+</body>
+</html>

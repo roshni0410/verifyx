@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 3790d441b6048542c149c970eab292aa0daf2f52 Solroshni23 <solroshni@email.com> 1792863648 +0530	commit (initial): Initial commit - VerifyX Deepfake Detection
+3790d441b6048542c149c970eab292aa0daf2f52 dbe9c4d59706d695626caf1fe59ec8692c5419cb Solroshni23 <solroshni@email.com> 1792863954 +0530	commit: Initial commit - VerifyX Deepfake Detection
+dbe9c4d59706d695626caf1fe59ec8692c5419cb 0000000000000000000000000000000000000000 Solroshni23 <solroshni@email.com> 1792864397 +0530	Branch: renamed refs/heads/main to refs/heads/main
+dbe9c4d59706d695626caf1fe59ec8692c5419cb dbe9c4d59706d695626caf1fe59ec8692c5419cb Solroshni23 <solroshni@email.com> 1792864397 +0530	Branch: renamed refs/heads/main to refs/heads/main
+dbe9c4d59706d695626caf1fe59ec8692c5419cb 2a5cc245ad183a9c948529a5370f718f28ee0edd Solroshni23 <solroshni@email.com> 1792867335 +0530	pull origin main --allow-unrelated-histories: Merge made by the 'ort' strategy.
+2a5cc245ad183a9c948529a5370f718f28ee0edd 89d1218799c72ffcffbd1508990c80138fc7925a solroshni04-art <solroshni04@gmail.com> 1792925674 +0530	commit: Add VerifyX AI deepfake detection project
